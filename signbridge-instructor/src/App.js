@@ -8,6 +8,7 @@ import MyStudents from './pages/MyStudents';
 import InterestForm from './pages/InterestForm';
 import Footer from './components/Footer';
 import About from './pages/About';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
             <Route path="/students" element={<MyStudents />} />
             <Route path="/interest-form" element={<InterestForm />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+
 
           </Routes>
          </main>

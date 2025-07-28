@@ -31,6 +31,7 @@ function Navbar() {
       <Link to="/profile" className="hover:text-gray-200 transition">Profile</Link>
       <Link to="/interest-form" className="hover:text-gray-200 transition">Apply as Instructor</Link>
       <Link to="/about" className="hover:text-gray-200 transition">About</Link>
+      <Link to="/contact" className="block hover:text-blue-200">Contact</Link>
 
     </div>
   </div>
@@ -47,6 +48,8 @@ function Navbar() {
   <Link to="/profile" onClick={() => setIsOpen(false)} className="block hover:text-gray-200 transition">Profile</Link>
   <Link to="/interest-form" onClick={() => setIsOpen(false)} className="block hover:text-gray-200 transition">Apply as Instructor</Link>
   <Link to="/about" className="hover:text-gray-200 transition">About</Link>
+  <Link to="/contact" className="text-white hover:text-blue-200 transition">Contact</Link>
+
 
 </div>
 
